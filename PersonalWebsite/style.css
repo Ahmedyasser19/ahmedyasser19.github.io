@@ -220,7 +220,7 @@ section{
     align-content: center;
     border: 2px solid red;
     background-color: white;
-    transform: translate(-50%,10%);    
+      
 }
 
 .contact-form a{
@@ -233,4 +233,18 @@ color: black ;
 .contact-form a:hover{
     color: green;
     
+    }
+
+    .whatsapp a{
+        text-decoration: none;
+        color: black;
+
+    }
+    .whatsapp i:hover{
+       color: green;
+
+    }
+    .whatsapp a:hover{
+        color: green;
+
     }
