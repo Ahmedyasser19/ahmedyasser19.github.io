@@ -4,53 +4,181 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Personal Website</title>
 </head>
-<body class="main-content">
-   
-    <header class="container header active" id="home">
-        <div class="header-content">
 
-        </div>
+    
+    <header>
+        <a href=# class="logo">Ahmed</a>
+        <nav class="navigation">
+            <a href=#services>Services</a>
+            <a href=#projects>Projects</a>
+            <a href=#>Contact</a>
+
+        </nav>
     </header>
 
-    <main>
-        <section class="container s1 about" id="about"></section>
-        <section class="container s2"  id="portfolio"></section>
-        <section class="container s3"  id="blogs"></section>
-        <section class="container s4 contact" id="contact"></section>
+    <section class="main">
+        <div>
+            <h2>Hello, I`m Ahmed<br><span>Software Engineer</span></h2>
+            <h3>I do my best </h3>
+            <a href="Ahmed yasser - Resume.pdf" class="main-btn" download="Ahmed yasser - Resume.pdf">Download CV
+                <i class="fa-solid fa-download btn-anim"></i>             </a>
 
-
-
-
-    </main>
-
-    <div class="controls">
-        <div class="control active-btn" data-id="home">
-            <i class="fas fa-home" ></i>
         </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-        <div class="control" data-id="blogs">
-            <i class="far fa-newspaper"></i>
-        </div>
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
-        </div>
-    </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
-    </div>
+    </section>
 
-    <script src="app.js"></script>
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="cardIcon">
+                    <i class="fa-brands fa-stack-exchange"></i>                </div>
+                    <div class="info">
+                        <h3>Full stack development</h3>
+                        <p>Writes code professionaly</p>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="cardIcon">
+                    <i class="fa-solid fa-server"></i>
+                </div>
+                    <div class="info">
+                        <h3>Fast project delivery</h3>
+                        <p>Delivering the required projects fast with quality first</p>
+                    </div>
+            </div>
+
+            <div class="card">
+                <div class="cardIcon">
+                    <i class="fa-solid fa-headphones-simple"></i>
+                </div>
+                    <div class="info">
+                        <h3>Music oroudcer</h3>
+                        <p>I Make music as a hobby</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="BackGround.jpg">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Programming protofolio Website</p>
+                    <strong class="project-title">
+                        <span>This Protofolio website</span>
+                        <a href="http:#" class="more-details">more details</a>
+                    </strong>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="IMG/FYP.png">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">My music related fyp where user can connect his midi controller and play a virtual synths made by myself. user can adjust parameters in real time as well! </p>
+                    <strong class="project-title">
+                        <span>Final year project</span>
+                        <a href="https://drive.google.com/drive/folders/1rqsi2SeRUeeP_at5_xHbDwram7DHeT_W?usp=share_link"target="_blank" class="more-details">more details</a>
+                    </strong>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="IMG/VRGame.png">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">users can play drums, fully the drum patter that they choose form the menu or play the  piano</p>
+                    <strong class="project-title">
+                        <span>VR music studio</span>
+                        <a href="https://drive.google.com/drive/folders/1OXa0RE4GDDlDi6X_IeMIbDLmzFCjL7Xu?usp=share_link"target="_blank" class="more-details">more details</a>
+                    </strong>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="IMG/2Dgame.png">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Batman, spider man and others compine to save the world</p>
+                    <strong class="project-title">
+                        <span>2D Heros game</span>
+                        <a href="https://drive.google.com/drive/folders/1-OEfAgu-z-g6xdc0CQ3ok6fuRDBREFfo?usp=share_link"target="_blank" class="more-details">more details</a>
+                    </strong>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="IMG/CovidSafe.png">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">uuh! covide times. Thankfully they are gone, this application allowed the users to register a new account, scan QR codes to enter places and display themself as safe or not safe in their area</p>
+                    <strong class="project-title">
+                        <span>CovidSafe</span>
+                        <a href="https://drive.google.com/drive/folders/1cDbntL4FCEvNydCVRgD4kpV71ejUoQtm?usp=share_link"target="_blank" class="more-details">more details</a>
+                    </strong>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="IMG/music main page.png">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">A website to display your fans. artist can publish their work easily using this template</p>
+                    <strong class="project-title">
+                        <span>ArtWebsite</span>
+                        <a href="https://drive.google.com/drive/folders/12lVClJ57OUuYN0IOvg431E7PuKG32VVm?usp=share_link" target="_blank" class="more-details">more details</a>
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <section class="cards contact" id="contact">
+            <h2 class="title">Let's work together</h2>
+            
+            <div class="contact-form project-card">
+                <i></i> Phone number: <strong>+601123383045</strong> 
+                
+            </div>
+
+            <div class="contact-form project-card">
+                <i class="fa-brands fa-whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=601123383045">Send Message on whatsapp</a></i>
+                
+            </div>
+            
+            
+
+        </section>
+
+    </section>
+
+    <footer class="footer">
+        <p>Copyrhight @Ahmed</p>
+
+    </footer>
 </body>
 </html>
+
