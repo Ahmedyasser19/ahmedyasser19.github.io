@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+
+    width: 100%;
+    position: fixed; 
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left:20px  ;
+}
+
+.navigation a:hover{
+    color: rgba(255, 255, 255,0.8);
+}
+
+header a {
+ color: white;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    background: url(BackGround.jpg) no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+}   
+
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: greenyellow;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.main h3 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+.main-btn{
+
+    background-color: rgba(255, 255, 255,0.13);
+    color: white;
+    text-decoration: none;
+    letter-spacing: 5px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.7 ease;
+    
+}
+.main-btn:hover {
+    background-color: rgba(255, 255, 255, 0.055);
+}
+
+
+.cards{
+    background-color: black;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+
+.content{
+    display: flex;
+    color: black;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 15px;
+    padding: 25px;
+    width: 20em;
+    background-color: white;
+    box-shadow: 0 5px 25px rgb(214, 214, 214);
+    border-radius: 10px;
+    transition: 0.7s ease;
+
+
+}
+
+
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+
+.cardIcon{
+    display: flex;
+    justify-content: center;
+    font-size: 8em;
+}
+.info{
+    text-align: center;
+}
+
+.info h3{
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+.projects{
+    background-color: black;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 11px;
+    margin: 20px;
+    transition: 0.7s ease ;
+
+}
+
+.project-card:hover{
+    transform: scale(1.1) ;
+}
+
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+
+.project-info{
+    padding: 1em;
+}
+
+.project-category{
+    font-size: 0.8em;
+
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800px;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+}
+
+.more-details:hover{
+    color: black;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 2px solid red;
+    background-color: white;
+      
+}
+
+.contact-form a{
+text-decoration: none;
+color: black ;
+
+}
+
+
+.contact-form a:hover{
+    color: green;
+    
+    }
+
+    .whatsapp a{
+        text-decoration: none;
+        color: black;
+
+    }
+    .whatsapp i:hover{
+       color: green;
+
+    }
+    .whatsapp a:hover{
+        color: green;
+
+    }
