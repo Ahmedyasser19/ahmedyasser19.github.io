@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./style.css"
+    />
+    <script
+      type="module"
+      src="./main.js"
+    ></script>
+    <title>Ahmed Yasser</title>
+  </head>
+  <body>
+    <section
+      style="margin-top: 80px"
+      class="flexRow alignCenter"
+    >
+      <div style="width: 80%">
+        <h1>Hi, I'm Ahmed 👋</h1>
+        <p class="sup">
+          Software Engineer that love building things and helping people. Very
+          active on Twitter.
+        </p>
+      </div>
+
+      <div
+        id="myself"
+        style="
+          width: 20%;
+          height: 120px;
+          transform: translateX(-5px) translateY(-6px);
+        "
+      >
+        <img
+          style="border-radius: 50%"
+          src="./imgs/me.jpg"
+          alt="img of myself"
+        />
+      </div>
+    </section>
+
+    <section>
+      <h2>About</h2>
+      <p class="about">
+        I’m a Software Engineering Honors graduate from Xiamen University
+        Malaysia, driven to become one of the best in the field. I thrive on
+        learning broadly while mastering my craft, building fast, scalable web
+        applications. I aim to solve real-world problems, save costs, and
+        optimize user experiences, all while laying the foundation for my own
+        startup. Passionate about innovation and growth, I’m eager to create
+        impactful solutions that help humanity move forward. Let’s build the
+        future together!
+      </p>
+    </section>
+    <section>
+      <h2>Work Experience</h2>
+      <a
+        class="flexCol hoverWork hover"
+        href=" https://mcit.gov.eg"
+        target="_blank"
+        style="margin-bottom: 10px"
+      >
+        <div class="workExp">
+          <div class="flexRow">
+            <div class="workImg">
+              <img
+                src="./imgs/mcit.jpg"
+                alt=""
+                style="background-color: white"
+              />
+            </div>
+            <div class="middleV">
+              <h3 id="showToggleLeft">MCIT</h3>
+              <h4>MEAN stack developer intern</h4>
+            </div>
+          </div>
+          <div class="middleV">
+            <h4 class="opacity5">Nov2024 – present</h4>
+            <h4 class="opacity4">Egypt- tanta</h4>
+          </div>
+        </div>
+      </a>
+      <a
+        class="flexCol hoverWork hover"
+        href="https://joget.com/"
+        target="_blank"
+      >
+        <div class="workExp">
+          <div class="flexRow">
+            <div class="workImg">
+              <img
+                src="./imgs/joget.jpg"
+                alt=""
+              />
+            </div>
+            <div class="middleV">
+              <h3 id="showToggleLeft">Joget technology</h3>
+              <h4>Quality Assurance intern</h4>
+            </div>
+          </div>
+          <div class="middleV">
+            <h4 class="opacity5">Apr 2023 – Sep 2023</h4>
+            <h4 class="opacity4">Malaysia - remote</h4>
+          </div>
+        </div>
+      </a>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <a
+        class="flexCol hoverWork hover"
+        href="https://www.xmu.edu.my"
+        target="_blank"
+      >
+        <div class="workExp">
+          <div class="flexRow">
+            <div class="workImg">
+              <img
+                src="./imgs/xmum.png.avif"
+                alt=""
+                style="background-color: white"
+              />
+            </div>
+            <div class="middleV">
+              <h3 id="showToggleLeft">Xiamen University Malaysia</h3>
+              <h4>Engineering in Software Engineering (Honors)</h4>
+            </div>
+          </div>
+          <h4 class="opacity5">Sep 2023</h4>
+        </div>
+      </a>
+    </section>
+    <section>
+      <h2>Skills</h2>
+      <div
+        class="flexRow"
+        style="gap: 4px; flex-wrap: wrap"
+        id="skills"
+      >
+        <div class="languageBlack hover">C++</div>
+        <div class="languageBlack hover">C</div>
+        <div class="languageBlack hover">HTML</div>
+        <div class="languageBlack hover">CSS</div>
+        <div class="languageBlack hover">PostgreSQL</div>
+        <div class="languageBlack hover">MySql</div>
+        <div class="languageBlack hover">MongoDB</div>
+        <div class="languageBlack hover">GraphQL</div>
+        <div class="languageBlack hover">TypeScript</div>
+        <div class="languageBlack hover">Tailwind</div>
+        <div class="languageBlack hover">NodeJs</div>
+        <div class="languageBlack hover">ExpressJs</div>
+        <div class="languageBlack hover">Bun</div>
+        <div class="languageBlack hover">React</div>
+        <div class="languageBlack hover">Angular</div>
+        <div class="languageBlack hover">NextJs</div>
+        <div class="languageBlack hover">Git</div>
+        <div class="languageBlack hover">GitHub</div>
+        <div class="languageBlack hover">Cypress</div>
+        <div class="languageBlack hover">Nginx</div>
+        <div class="languageBlack hover">Docker</div>
+        <div class="languageBlack hover">Rust</div>
+        <div class="languageBlack hover">Redis</div>
+        <div class="languageBlack hover">CI/CD</div>
+        <div class="languageBlack hover">Shell Scripting</div>
+        <div class="languageBlack hover">Figma</div>
+      </div>
+    </section>
+    <section>
+      <div
+        class="flexCol alignCenter"
+        style="width: 100%"
+      >
+        <div class="languageBlack">My projects</div>
+        <h1 style="text-align: center; font-size: 50px">
+          Check out my latest work
+        </h1>
+        <h3
+          style="text-align: center; font-size: 20px"
+          class="about"
+        >
+          I've worked on a variety of projects, from simple websites to complex
+          web applications. Here are a few of my favorites.
+        </h3>
+        <section
+          id="projects"
+          class="flexRow"
+          style="
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: 40px;
+            gap: 2%;
+            justify-content: space-between;
+          "
+        >
+          <div class="card flexCol">
+            <div style="width: 100%; height: 160px">
+              <img
+                src="./imgs/parking.gif"
+                alt="parkingSystem"
+              />
+            </div>
+            <div class="cardText">
+              <div>
+                <p class="projectName">Multi player mini vs code</p>
+                <p class="projectDate">Nov2023 - present</p>
+                <p class="projectDetails">
+                  I always wondered how vs code works so i wanted to build a
+                  repleca do get to know the mechanices of it. more than two
+                  people can work on teh same file etc
+                </p>
+              </div>
+              <div>
+                <div
+                  class="flexRow"
+                  style="gap: 5px; margin: 10px 0; flex-wrap: wrap"
+                >
+                  <div class="languageGrey">HTML</div>
+                  <div class="languageGrey">CSS</div>
+                  <div class="languageGrey">Vanilla JS</div>
+                  <div class="languageGrey">ExpressJs</div>
+                  <div class="languageGrey">MongoDB</div>
+                  <div class="languageGrey">Web socket</div>
+                </div>
+                <div class="flexRow">
+                  <div
+                    class="languageBlack"
+                    style="margin-right: 5px"
+                  >
+                    website
+                  </div>
+                  <div class="languageBlack">github</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <nav id="nav">
+      <button class="hover">
+        <img
+          src="./svg/homeLight.svg"
+          alt=""
+        />
+      </button>
+      <div class="ruler"></div>
+      <button class="hover">
+        <img
+          src="./svg/twitterLight.svg"
+          alt=""
+        />
+      </button>
+      <button class="hover">
+        <img
+          src="./svg/gitHubLight.svg"
+          alt=""
+        />
+      </button>
+      <div class="ruler"></div>
+      <button
+        class="hover"
+        id="changeTheme"
+      >
+        <img
+          src="./svg/lightLight.svg"
+          alt=""
+        />
+      </button>
+    </nav>
+    <div id="fade"></div>
+  </body>
+</html>
