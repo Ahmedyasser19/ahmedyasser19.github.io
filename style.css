@@ -127,8 +127,12 @@ h4 {
   text-overflow: ellipsis;
 }
 .card {
+  border-radius: 0.5%;
   width: 48%;
   min-height: 400px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin-bottom: 20px;
 }
 .fadeLight {
   background: linear-gradient(
@@ -260,7 +264,7 @@ h2 {
   font-weight: 100;
   opacity: 0.8;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
   section {
     width: 90vw;
   }
@@ -284,6 +288,7 @@ h2 {
     justify-content: safe;
   }
 }
+
 #fade {
   position: fixed;
   bottom: 0;
