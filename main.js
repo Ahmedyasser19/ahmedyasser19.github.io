@@ -21,7 +21,7 @@ const lightImages = [
 const darkImages = [
   "./svg/homeDark.svg",
   "./svg/twitterDark.svg",
-  "./svg/twitterDark.svg",
+  "./svg/gitHubDark.svg",
   "./svg/linkedInDark.svg",
   "./svg/lightDark.svg",
 ];
